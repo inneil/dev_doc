@@ -1,0 +1,127 @@
+@g-3: #333;
+@g-6: #666;
+@g-9: #999;
+@g-f0: #f0f0f0;
+@g-nav: #fafafa;
+@g-nav-child: #f0f0f0;
+@g-main: #f6f6f6;
+@g-header: #f5f5f5;
+@blue: #2cb3ff;
+@blue-l: #b5eeff;
+@color-theme: #2ea2fb;
+@white: #fff;
+@header-top: #313638;
+@header-left: #525b5e;
+@header-color: #b3c2c9;
+@red: #ff3300;
+@green: #9bfd84;
+@min-width: 1200px;
+.flex {
+    display: flex;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-center-h {
+    display: flex;
+    align-items: center;
+}
+
+header {
+    background-color: #262a2b;
+    // min-width: @min-width;
+    height: 0.6rem;
+    display: flex;
+    justify-content: space-between;
+    .header-img {
+        width: 3rem;
+        height: 0.6rem;
+        padding-left:60px;
+        
+        align-items: center;
+        img {
+            width: 100%;
+            height: inherit;
+            padding: .1rem .15rem;
+        }
+    }
+    .wrap {
+        ul {
+            .flex-center-h;
+            color: @white;
+            height: 0.6rem;
+            li {
+                padding: 0 .1rem;
+            }
+        }
+    }
+}
+
+footer {
+    height: .4rem;
+    flex: 0 0 100%;
+    text-align: center;
+    color: #c1c1c1;
+    background: @g-main;
+}
+
+.main {
+    .flex;
+    padding: .3rem 1rem;
+    background: @g-main;
+    height: calc(~"100vh - 1rem");
+    .sidebar {
+        flex: 0 0 1.5rem;
+        background: @white;
+        height: calc(~"100vh - 1.5rem");
+        margin-right: .2rem;
+    }
+    .cont {
+        flex: auto;
+        padding: .2rem;
+        background: @white;
+        height: calc(~"100vh - 1.5rem");
+        overflow: auto;
+    }
+}
+
+.search-title {
+    font-size: 20px;
+    padding-bottom: .2rem;
+    color: #2d8cf0;
+}
+
+.search-info {
+    .flex;
+    padding-bottom: .2rem;
+}
+
+.search-table {
+    width: 100%;
+    .body-table {
+        width: 100%;
+        .ivu-table-wrapper {
+            margin-bottom: .1rem;
+        }
+        table {
+            width: 100% !important;
+        }
+    }
+}
+
+.code {
+    display: block;
+    padding: 9.5px;
+    font-size: 13px;
+    line-height: 1.42857143;
+    overflow: auto;
+    word-break: break-all;
+    word-wrap: break-word;
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}

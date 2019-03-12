@@ -1,0 +1,7 @@
+[0312/122432.499:ERROR:process_info.cc(608)] range at 0xffa7e000, size 0x230 fully unreadable
+[0312/122432.539:ERROR:process_info.cc(608)] range at 0xffa7d000, size 0xf84 fully unreadable
+[0312/122432.539:ERROR:process_info.cc(608)] range at 0xffa7a000, size 0xf84 fully unreadable
+[0312/122432.539:ERROR:process_info.cc(608)] range at 0xffa77000, size 0xf84 fully unreadable
+[0312/122434.566:ERROR:scoped_process_suspend.cc(38)] NtResumeProcess: 已尝试访问正在退出的过程。  (0xc000010a)
+[0312/122434.756:ERROR:file_io_win.cc(145)] CreateFile C:\Users\ldl\AppData\Local\2345Explorer\User Data\Crashpad\reports\F0-76-1C-7C-36-14_fa081f4d-6fbb-45b6-84e4-6c90d0a57645.log: 系统找不到指定的文件。 (0x2)
+[0312/122434.756:ERROR:http_transport_win.cc(185)] GetBytesBuffer failed
